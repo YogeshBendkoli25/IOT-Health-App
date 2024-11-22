@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # IoT_Health_App
 
 ##Overview
