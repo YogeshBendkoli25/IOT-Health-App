@@ -18,31 +18,18 @@ IoT Devices: Compatible wearables (listed below).
 ## Operating System:
 Android 5.0 or higher
 iOS 10.0 or higher
-App Version: 1.0.0 or later
-Internet Connection: Required for syncing data and cloud storage.
-Installation Instructions
-## For Android:
-Download APK: Get the app’s APK from the official site or trusted source.
-Enable Install from Unknown Sources: Go to Settings > Security > Enable "Install from Unknown Sources."
-Install APK: Open the APK file and tap "Install."
-Launch the App: After installation, tap "Open."
-## For iOS:
-Download from App Store: Search for "IoT-Connected Health" and download.
-Install: Follow on-screen instructions to install.
-Launch the App: After installation, tap "Open."
-Usage
+
+## Usage
 Setting Up:
-Create/Log In to Account: Open the app and sign up or log in.
-Connect IoT Devices: Go to the "Devices" section and follow the instructions to pair your wearable via Bluetooth.
-Start Monitoring: Once connected, data will start syncing and you can view real-time metrics.
+- Connect IoT Devices: Go to the "Devices" section and follow the instructions to pair your wearable via Bluetooth.
+- Start Monitoring: Once connected, data will start syncing and you can view real-time metrics.
 Main Features:
 Dashboard: See your current health metrics like heart rate, temperature, and steps.
 Health Insights: Tap any metric for a detailed breakdown and trends.
 Notifications: Alerts will pop up if any readings are outside normal ranges.
 Settings: Customize preferences like temperature units or update your profile.
 Architecture
-Frontend (Mobile App): Built with React Native for both Android and iOS platforms. Displays data and interacts with IoT devices.
-Backend (Cloud Service): Cloud service (e.g., AWS, Firebase) stores data and handles analytics.
+Frontend (Mobile App): Built with Flutter and Dart for both Android and iOS platforms. Displays data and interacts with IoT devices.
 IoT Devices: Devices connect via Bluetooth to transmit real-time health data.
 Data Flow:
 Health data is collected by the IoT device.
@@ -51,6 +38,5 @@ The app syncs with the cloud server for analysis.
 Insights and notifications are shown to the user.
 Supported Devices
 Smartwatches: Apple Watch, Samsung Galaxy Watch
-Fitness Bands: Fitbit, Garmin
-Other Devices: Smart Thermometers, Heart Rate Monitors, Sleep Trackers
-Note: More devices may be supported in future updates.
+Fitness Bands: Fitbit, Garmin, etc.
+Other Devices: Smart Thermometers, Heart Rate Monitors, Sleep Trackers,etc
