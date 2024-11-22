@@ -15,9 +15,13 @@ Wearable Integration: Works with popular smartwatches and fitness trackers.
 Mobile Device: Android or iOS smartphone with Bluetooth.
 IoT Devices: Compatible wearables (listed below).
 
+## Functionality
+- BLE/Wi-Fi Simulation: The app performs well in handling Bluetooth Low Energy (BLE) and Wi-Fi connections. It simulates device communication by securely syncing real-time health data over BLE (Bluetooth) or Wi-Fi depending on the device.
+- Real-Time Data Syncing: The app efficiently manages the continuous flow of data from connected devices. It ensures that health metrics are updated in real time, providing users with instant feedback on their health status. This is achieved through seamless integration with BLE and Wi-Fi technology for quick and reliable data transmission.
+
 ## Operating System:
-Android 5.0 or higher
-iOS 10.0 or higher
+- Android 5.0 or higher
+- iOS 10.0 or higher
 
 ## Usage
 - Connect IoT Devices: Go to the "Devices" section and follow the instructions to pair your wearable via Bluetooth.
